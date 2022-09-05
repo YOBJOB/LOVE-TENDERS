@@ -1,0 +1,31 @@
+.body {
+    background: rgb(124, 123, 197);
+}
+
+.titre {
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloc-oui-non{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .oui{
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        border: solid black 3px;
+        border-radius: 5px;
+    }
+    .non{
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        border: solid black 3px;
+        border-radius: 5px;
+    }
+}
